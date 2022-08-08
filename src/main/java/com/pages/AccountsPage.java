@@ -17,7 +17,12 @@ public class AccountsPage {
 		this.driver = driver;
 	}
 	
-		
+	public static void secondCommit()
+	{
+		System.out.println("This is my second commit");
+	}
+	
+	
 	public String getAccountsPageTitle()
 	{
 		return driver.getTitle();
